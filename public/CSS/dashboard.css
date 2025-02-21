@@ -1,0 +1,78 @@
+/* Auth Message Styles */
+.auth-message {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Authenticated User Style */
+.auth-message.user {
+    background-color: #e3f2fd; /* Soft blue background */
+    color: #1565c0; /* Bold blue text */
+    border: 2px solid #1565c0;
+}
+
+.auth-message.user:hover {
+    transform: scale(1.05); /* Subtle scaling effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+/* General Styling */
+.admin-dashboard-menu {
+    text-align: center;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.dashboard-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #0077b6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu Container */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Individual Menu Card */
+.menu-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-content h2 {
+    font-size: 1.5rem;
+    color: #0077b6;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}

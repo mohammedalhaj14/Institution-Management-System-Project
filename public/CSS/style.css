@@ -1,0 +1,94 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9; /* Light background for a modern feel */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Auth Message Styles */
+.auth-message {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Authenticated User Style */
+.auth-message.user {
+    background-color: #e3f2fd; /* Soft blue background */
+    color: #1565c0; /* Bold blue text */
+    border: 2px solid #1565c0;
+}
+
+.auth-message.user:hover {
+    transform: scale(1.05); /* Subtle scaling effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Guest Style */
+.auth-message.guest {
+    background-color: #fff3e0; /* Soft orange background */
+    color: #ef6c00; /* Vibrant orange text */
+    border: 2px solid #ef6c00;
+}
+
+.auth-message.guest:hover {
+    transform: scale(1.05); /* Subtle scaling effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #4facfe, #00f2fe); /* Modern gradient background */
+    color: #fff;
+    border-radius: 12px;
+    margin: 40px auto;
+    max-width: 1200px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+.welcome-section p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+/* Services Link Button */
+.services-link {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: #ffffff;
+    color: #0077b6;
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.services-link:hover {
+    background: #0077b6;
+    color: #fff;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px); /* Lift effect */
+}

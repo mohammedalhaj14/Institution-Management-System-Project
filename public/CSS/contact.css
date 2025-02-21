@@ -1,0 +1,43 @@
+/* Form Styles */
+.container {
+    width: 100%;
+}
+
+.contact-form {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input,
+.form-control textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#submit-btn{
+    width: 100%;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#submit-btn:hover{
+    background-color: #444;
+    color: #fff;
+}

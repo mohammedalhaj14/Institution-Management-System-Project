@@ -1,0 +1,114 @@
+/* Tutoring Content */
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 50px 30px;
+background-color: #fff;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
+
+/* Page Title */
+.page-title {
+font-size: 36px;
+font-weight: bold;
+color: #333;
+text-align: center;
+margin-bottom: 20px;
+}
+
+/* Page Description */
+.page-description {
+font-size: 18px;
+line-height: 1.6;
+color: #555;
+text-align: center;
+max-width: 900px;
+margin: 0 auto 40px;
+}
+
+/* Tutoring Information */
+.tutoring-info {
+background-color: #f9f9f9;
+padding: 30px;
+border-radius: 8px;
+margin-bottom: 40px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.tutoring-info h2 {
+font-size: 28px;
+margin-bottom: 20px;
+color: #333;
+}
+
+.tutoring-info ul {
+list-style-type: disc;
+margin-left: 20px;
+font-size: 16px;
+line-height: 1.8;
+color: #555;
+}
+
+/* Tutoring Form */
+.tutoring-form {
+padding: 30px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+max-width: 900px;
+margin: 0 auto;
+}
+
+.tutoring-form h2 {
+font-size: 28px;
+margin-bottom: 25px;
+text-align: center;
+color: #007bff;
+}
+
+/* Form Controls */
+.tutoring-form .form-control {
+margin-bottom: 20px;
+}
+
+.tutoring-form label {
+font-size: 16px;
+color: #333;
+margin-bottom: 10px;
+display: block;
+}
+
+.tutoring-form input,
+.tutoring-form select,
+.tutoring-form textarea {
+width: 100%;
+padding: 12px 15px;
+font-size: 16px;
+border: 1px solid #ddd;
+border-radius: 6px;
+background-color: #f9f9f9;
+transition: border-color 0.3s ease;
+}
+
+.tutoring-form input:focus,
+.tutoring-form select:focus,
+.tutoring-form textarea:focus {
+border-color: #007bff;
+}
+
+.tutoring-form button {
+width: 100%;
+padding: 15px;
+background-color: #007bff;
+border: none;
+color: #fff;
+font-size: 18px;
+border-radius: 6px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.tutoring-form button:hover {
+background-color: #0056b3;
+}

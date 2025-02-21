@@ -1,0 +1,55 @@
+
+/* Hero Section */
+.hero {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Services Section */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0 30px;
+    margin-bottom: 50px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 285px; /* or any fixed height you prefer */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.card a{
+    color: #007bff;
+    text-decoration: none;
+}
+.card a:hover{
+    text-decoration: underline;
+}

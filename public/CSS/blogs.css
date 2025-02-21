@@ -1,0 +1,33 @@
+
+/* Blog Post Styles */
+.blog-container {
+    padding: 20px;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-post .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.blog-post .date {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.blog-post .summary {
+    font-size: 16px;
+}
+
+.blog-post .summary a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.blog-post .summary a:hover {
+    text-decoration: underline;
+}
