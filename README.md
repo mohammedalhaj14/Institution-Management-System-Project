@@ -37,7 +37,7 @@ The **Institution Management System** is a **web-based application** built using
 ## 🎯 Installation & Setup  
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/your-username/institution-management-system.git
+   https://github.com/mohammedalhaj14/Institution-Management-System-Project
    cd institution-management-system
    ```
 
